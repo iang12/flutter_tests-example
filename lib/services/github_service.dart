@@ -1,14 +1,12 @@
 import 'package:dio/dio.dart';
-import 'package:logger/logger.dart';
 
 import '../model/github_model.dart';
 
 class GithubService {
-  final Dio dio;
+  Dio dio = Dio();
   GithubService(this.dio);
   final baseURL = 'https://api.github.com/search/repositories?q=';
 
-  var logger = Logger();
   Future<List<GithubModel>> searchRepositories(String query) async {
     try {
       final response = await dio.get(baseURL, queryParameters: {
