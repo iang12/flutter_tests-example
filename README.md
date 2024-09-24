@@ -1,7 +1,8 @@
 # github_search_app
 
 A new Flutter project.
-
+## Screenshot
+<img src="screenshot.png" height="500em"/>
 ## Getting Started
 
 This project is a starting point for a Flutter application.

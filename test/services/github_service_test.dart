@@ -37,7 +37,7 @@ void main() {
           "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
           "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4"
         }
-      }
+      },
     ]
   };
   group('GithubService - searchRepositories', () {
